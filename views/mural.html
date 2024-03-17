@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBook - Mural </title>
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body>
+    {{ template "cabecalho" }}
+
+
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Postagens
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mural</h5>
+                        <p class="card-text">
+                            {{ range .Publicacoes }}
+                                {{ template "publicacao-sem-permissao" . }}
+                            {{ else }}
+                                <p class="text-muted text-center">
+                                    Nenhuma publicação por enquanto...
+                                </p>
+                            {{ end }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    {{ template "rodape" }}
+
+
+    {{ template "scripts" }}
+    <script src="/assets/js/publicacoes.js"></script>
+    <script src="/assets/js/usuario.js"></script>
+</body>
+
+</html>
