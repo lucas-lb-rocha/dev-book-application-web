@@ -1,6 +1,6 @@
 # Dev-book-application-web
 
-Essa API é um CRUD de usuários e publicações para um banco de dados postgres. Essa aplicação é resultante do curso https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa/?couponCode=KEEPLEARNING
+Essa aplicação web consome da API dev-book-api e é uma página similar ao twitter na qual é possível postar mensagens, seguir usuários e acompanhar as postagens dos usuários da rede. Essa aplicação é resultante do curso https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa/?couponCode=KEEPLEARNING
 
 # Pré-requisistos
 - golang
