@@ -1,8 +1,8 @@
-# dev-book-application-web
+# Dev-book-application-web
 
 Essa API é um CRUD de usuários e publicações para um banco de dados postgres. Essa aplicação é resultante do curso https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa/?couponCode=KEEPLEARNING
 
-# Pre-requisistos
+# Pré-requisistos
 - golang
 - postgres
 - javascript
