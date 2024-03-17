@@ -18,3 +18,5 @@ Essa API é um CRUD de usuários e publicações para um banco de dados postgres
 - Na raiz do projeto rode go run main.go
 
 O projeto vai estar rodando na porta que escolheu, por exemplo, localhost:5001
+
+Link para o vídeo com a demonstração da aplicação: https://youtu.be/BF60wRh9cDc
